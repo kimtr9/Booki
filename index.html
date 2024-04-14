@@ -21,8 +21,8 @@
             <img class="logo" src= "images/logo/Booki.png" alt="logo Brooki">
             <nav>
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activities">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,17 +33,18 @@
 
             <div class="search-bar">
                  <i class="fa-solid fa-location-dot" style="color: #040404;"></i> 
-                 <input class="search-bar-button" type="search" value="Marseille,France"> 
+                 <input class="search-bar-button" type="search" value= "Marseille,France" placeholder="Marseille,France"> 
                  <input class="search-button" type="submit" value="Rechercher">
+                <button type="submit" id="search-button-alt"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div class="filters">
                 <h2>Filtres</h2>
-                <span class="buttons">
+                <div class="buttons">
                   <button type="button"><i class="fa-solid fa-money-bill-wave"></i><p>Économique</p></button>
                   <button type="button"><i class="fa-solid fa-person"></i><p>Familial</p></button>
                   <button type="button"><i class="fa-solid fa-heart"></i><p>Romantique</p></button>
                   <button type="button"><i class="fa-solid fa-fire"></i><p>Nos pépites</p></button>
-                </span>
+                </div>
             </div>
 
             <div class="info-bar">
@@ -53,7 +54,7 @@
 
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h1>Hébergements à Marseille</h1>
+                    <h1 id="hebergements">Hébergements à Marseille</h1>
 
                     <div class="hebergements-cards">
                       <a href="#">
@@ -254,7 +255,7 @@
             </div>
 
             <div class="marseille-activities"> 
-                <h2>Activités à Marseille</h2>
+                <h1 id="activities" >Activités à Marseille</h1>
                 <div class="activities-cards"> 
                     <a href="#">
                         <article class="card">
@@ -297,6 +298,7 @@
                 </div>
             </div>
         </main>
+
         <footer>
           <div class="a-propos">
             <h2>À propos</h2>
