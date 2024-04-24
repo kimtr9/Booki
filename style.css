@@ -34,7 +34,7 @@ h1 {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
@@ -364,6 +364,7 @@ header li :hover, header li :active {
 
 .marseille-activities h3 {
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -408,8 +409,6 @@ footer li {
         width: 47% !important;
     }
 
-   
-
     }
 
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -421,7 +420,7 @@ footer li {
     }
 
     .filters .buttons {
-          font-size: 16px ;
+          font-size: 16px;
     
     }
     
@@ -555,6 +554,7 @@ footer li {
         justify-content: space-around;
         padding-bottom: 10px;
         padding-left: 0;
+        gap: 0;
     }
 
     header ul :hover, header ul :active {
@@ -566,6 +566,7 @@ footer li {
         height: 100%;
         width: 50%;
         text-align: center;
+        padding-bottom: 10px;
     }
     
     header li :hover, header li :active {
@@ -602,13 +603,22 @@ footer li {
 
     }
 
+    .filters .buttons span {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
     .search-button {
         display: none;
     }
 
+    .search-bar button {
+        font-size: 15px;
+    }
+
 
     .buttons button { 
-        width: 165px;
+        width: 47%;
         display: block;
         display: flex;
        
@@ -623,7 +633,7 @@ footer li {
     }
 
     
-    .buttons p {
+    .buttons span {
         font-size: 14px;
     }
 
@@ -648,6 +658,7 @@ footer li {
     .populaires {
         order: 1;
         border-radius: 0 !important;
+        margin-top: 0;
               
     }
 
